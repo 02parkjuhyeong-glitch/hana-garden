@@ -1,0 +1,27 @@
+﻿# 환경변수 파일 (토큰, 비밀번호 등)
+.env
+.env.local
+.env.*.local
+
+# Claude 설정 파일
+.claude/skills/
+.claude/commands/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 임시/빌드 파일
+*.tmp
+*.log
+dist/
+build/
+
+# 에디터 설정
+.vscode/
+.idea/
